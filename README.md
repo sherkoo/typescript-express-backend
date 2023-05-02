@@ -1,6 +1,9 @@
 # User Management API
 This is a sample REST API built using Node.js and Express for managing users.
 
+# Repo
+https://github.com/sherkoo/typescript-express-backend
+
 # Getting Started
 To get started with this project, first clone the repository and then run:
 
@@ -15,23 +18,22 @@ This sets the port that the server will listen on.
 
 To start the server, run:
 
-
 `npm run start`
 This will start the server at http://localhost:3000.
 
 # API Endpoints
 This API has the following endpoints:
 
-GET /users
+`GET /users`
 Returns a list of all users.
 
-GET /users/:id
+`GET /users/:id`
 Returns a specific user by ID.
 
-POST /users/new
+`POST /users/new`
 Creates a new user.
 
-DELETE /users/:id
+`DELETE /users/:id`
 Deletes a user by ID.
 
 # Error Handling
