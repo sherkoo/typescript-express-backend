@@ -1,8 +1,12 @@
 import express, { Request, Response } from 'express';
 import { UserController } from './controllers/Users';
+const cors = require('cors');
 
 const app = express();
 const port = 3000;
+app.use(cors({
+  origin: 'http://localhost:4200'
+}));
 
 // middleware to parse json requests
 app.use(express.json());
